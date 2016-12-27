@@ -1,0 +1,151 @@
+/*
+	materializecss rtl Created by Mortadda Jafar
+	github :https://github.com/mortadda/materializecss-rtl
+
+*/
+
+body {
+  direction: rtl; }
+
+.input-field label {
+  right: 0.75rem; }
+
+.input-field .prefix ~ input,
+.input-field .prefix ~ textarea {
+  margin-left: 0;
+  margin-right: 3rem; }
+
+.input-field .prefix ~ label {
+  margin-right: 3rem;
+  margin-left: 0;
+}
+
+.collapsible-header i {
+  float: right; }
+
+form p {
+  text-align: right; }
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked{
+  right: 0;
+}
+
+[type="checkbox"] {
+  /* checkbox aspect */ }
+  [type="checkbox"] + label {
+    padding-right: 35px; }
+  [type="checkbox"] + label:before {
+    right: 0; }
+
+[type="checkbox"]:checked {
+  /* checkbox aspect */ }
+  [type="checkbox"]:checked + label:before {
+    right: 10px; }
+
+[type="checkbox"].filled-in + label:before {
+  right: 10px; }
+
+[type="checkbox"].filled-in + label:after {
+  right: 0; }
+
+[type="radio"] {
+  /* radio aspect */
+  /* radio aspect */ }
+  [type="radio"] + label {
+    padding-right: 35px; }
+  [type="radio"] + label:before {
+    right: 0; }
+  [type="radio"] + label:after {
+    right: 0; }
+
+.row .col {
+  float: right; }
+
+.file-field .file-path-wrapper {
+  padding-right: 10px; }
+
+.file-field .btn {
+  float: right; }
+
+span.badge {
+  left: 15px;
+  right: inherit; }
+
+.dropdown-content li {
+  text-align: right; }
+
+.secondary-content {
+  float: left; }
+
+.breadcrumb:before {
+  content: '\E5CB'; }
+
+.collection .collection-item.avatar {
+  padding-left: 0;
+  padding-right: 72px; }
+  .collection .collection-item.avatar .circle {
+    right: 15px;
+    left: auto; }
+  .collection .collection-item.avatar .secondary-content {
+    left: 16px;
+    right: auto; }
+
+.collection.avatar {
+  padding-right: 72px;
+  padding-left: auto; }
+  .collection.avatar .secondary-content {
+    left: 16px; }
+
+.select-wrapper span.caret {
+  right: auto;
+  left: 0; }
+
+.chip img {
+  float: right;
+  margin: 0 -8px 0 12px; }
+
+.chip i.material-icons {
+  float: left;
+  padding-right: 8px;
+  padding-left: 0; }
+
+nav .brand-logo.left{
+  left: 0.5rem;
+  padding: 0;
+}
+
+[type="radio"]:not(:checked), [type="radio"]:checked {
+  position: absolute;
+  right: -9999px;
+  opacity: 0;
+}
+[type="checkbox"] + label:before, [type="checkbox"]:not(.filled-in) + label:after {
+  right: 0;
+}
+
+nav ul li {
+  float: right;
+}
+.side-nav.fixed {
+  right: 0;
+  left: auto;
+}
+.row .col.offset-s2 {
+  margin-right: 16.66667%;
+  margin-left:auto;
+}
+
+@media only screen and (min-width: 601px){
+  .row .col.offset-m3 {
+    margin-right: 25%;
+    margin-left:0;
+  }
+  .row .col.offset-m2 {
+    margin-left: 0;
+    margin-right: 16.66667%;
+  }
+  .row .col.offset-m1 {
+    margin-right: 8.33333%;
+    margin-left:0%;
+  }
+}
